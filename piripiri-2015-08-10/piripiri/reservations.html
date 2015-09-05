@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet"  type="text/css" href="stylesheet.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Piri Piri Reservations</title>
+    </head>
+    <body>
+    
+        <div class="container">
+           
+            <div class="top">
+            <header> 
+              <!-- <a href="#"><img src="img/logo/piripirilogo.jpg"></a> -->
+            </header>
+            
+        <nav>
+            <div class="flag">
+                <a href="#" title="Portuguese">
+                <img src="img/logo/Portugal-Flag-icon.png"></a>
+                <a href="#" title="English">
+                <img src="img/logo/1.png"></a>
+            </div>
+            <ul class="nav-list">
+               <li> <a href="index.html"> Home </a> </li>
+                <li> <a href="about.html">About/Reviews</a> </li>
+                <li> <a href="menu.html">Menu </a> </li>
+               <li> <a href="reservations.html"> Reservations </a> </li>
+               </ul>
+               
+               <div class="socialmedia">
+                  <a href="https://www.facebook.com/"> <img src="img/logo/facebook.png"></a>
+                  <a href="https://www.linkedin.com/"> <img src="img/logo/linkedin.png"></a>
+                  <a href="https://www.pinterest.com/"> <img src="img/logo/pinterest.png"></a>
+                  <a href="https://twitter.com/"> <img src="img/logo/Twitter.png"></a>
+                  <a href="http://www.buzzfeed.com/"> <img src="img/logo/buzzfeed.png"></a>
+               </div><!--end socoal media-->
+        </nav>
+        </div><!--end top:header/logo/social media-->
+
+
+      <div id="reservation">
+         <form class="reserv-form-boxes"> <!--latest changes-->
+             <br> <br>
+             First Name:<input name="fname" size="30" type="text"> <br>
+             Last Name:<input name="lname" size="30" type="text"><br> 
+             Your Email:<input name="email" size="30" type="text"><br> 
+
+
+            <label for ="phone" class="title">Phone:</label>
+            <input type = "text" id="name" name= "phone"/>
+            <br>
+            
+<!--            <div>
+            <label for ="email" class="title">Email:</label>
+            <input type = "text" id="name" name = "email"/>
+            </div>
+            <br>   -->
+            
+            <div>
+            <label for ="guests" class="title"># of Guests:</label>
+            <select id="select-guest">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12+">12+</option>
+            </select>
+            </div>
+            <br>
+
+            <div>
+            <label for ="month" class="title">Month:</label>
+            <select id="select-month">
+              <option value="july">July</option>
+              <option value="august">August</option>
+              <option value="september">September</option>
+              <option value="october">October</option>
+              <option value="november">November</option>
+              <option value="december">December</option>
+            </select>
+            </div>
+             <div>
+            <label for ="date" class="title">Date:</label>
+            <select id="select-date">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+            </div>
+
+            <br>
+            <div class="radio-buttons">
+                <span class="title">Meal:</span>
+                <input type="radio" name="meal" id="brunch" value="brunch"/>
+                <label for="brunch">Brunch</label>
+                <input type="radio" name="meal" id="lunch" value="lunch"/>
+                <label for="lunch">Lunch</label>
+                <input type="radio" name="meal" id="dinner" value="dinner"/>
+                <label for="dinner">Dinner</label>
+            </div>
+            <br><br>
+                
+           
+                  
+             Further Information:<br><textarea name="message" rows="14" cols="70">
+                          </textarea><br>
+                          <input type = "submit" value = "Reserve" id="submit"/>
+                   
+             
+          </form>
+          </div>
+          <br><br>
+          
+   
+        <footer>
+            <div class="location">
+                  <a href="https://www.google.com/maps/place/210+Mott+St,+New+York,+NY+10012/@40.7217339,-73.9954263,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2598f5369cc23:0x753afe03b3a6835d" title="Google Maps" alt="Google Maps">Location:</a>
+                 <br>210 Mott St.
+                 <br>New York, NY — 10012
+            </div>
+               
+            <div class="hours">
+                Hours:
+               <br> Monday — Friday
+               <br> 12pm — 11pm
+               <br> Saturday — Sunday
+               <br>10am — 11pm
+           </div>
+               
+           <div class="newsletter">
+                 <form>
+                     Sign Up for our Newsletter!
+                     <br>
+                     Name:<br>
+                     <input type="text" name="firstname">
+                      <br> 
+                     Email:<br>
+                     <input type="text" name="lastname">
+                        <br><br> 
+                    <button type="submit">Subscribe</button>
+               </form> 
+               </div><!--end newsletter-->
+               
+               <div class="contact">
+                   <a href="mailto:">Email: info@piripirinyc.com</a><br>
+                   <a href="reservations.html">Reservations</a><br>
+                   Phone (347) 867-5309
+               </div>
+               
+          
+        </footer>
+        </div><!--end reservations-->
+    
+    </body>
+</html>
